@@ -75,6 +75,12 @@ class MelodicPattern(NamedTuple):
     def _color_for_note(self, note):
         if note == self.scale[0]:
             return 'NoteBase'
+        elif note == self.scale[4] and len(self.scale) == 7:
+            return 'Note5'
+        elif note == self.scale[3] and len(self.scale) == 7:
+            return 'Note4'
+        elif note == self.scale[3] and len(self.scale) == 5:
+            return 'Note5'
         elif note in self.scale:
             return 'NoteScale'
         else:

@@ -1,6 +1,6 @@
 #Embedded file name: /Users/versonator/Jenkins/live/Binary/Core_Release_64_static/midi-remote-scripts/Push/SkinDefault.py
 from _Framework.Skin import Skin
-from Colors import Basic, Rgb, Pulse, Blink, BiLed
+from Colors import Basic, Rgb, Pulse, Blink, BiLed, RgbColor
 
 class Colors:
 
@@ -41,6 +41,16 @@ class Colors:
         Feedback = Rgb.GREEN
         FeedbackRecord = Rgb.RED.shade(1)
         NoteAction = Rgb.RED
+        Note2 = RgbColor(34)
+        Note3 = RgbColor(35)
+        Note4 = RgbColor(126)
+        Note5 = RgbColor(101)
+        Note6 = RgbColor(38)
+        Note7 = RgbColor(39)
+        Note8 = RgbColor(40)
+        Note9 = RgbColor(41)
+        Note10 = RgbColor(42)
+        Note11 = RgbColor(43)
 
     class Recording:
         On = Basic.FULL
