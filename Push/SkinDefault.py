@@ -34,23 +34,24 @@ class Colors:
         Chromatic = BiLed.YELLOW_HALF
 
     class Instrument:
-        NoteBase = Rgb.OCEAN
+        NoteBase = RgbColor(14)
         NoteScale = Rgb.WHITE
         NoteNotScale = Rgb.BLACK
         NoteInvalid = Rgb.BLACK
         Feedback = Rgb.GREEN
         FeedbackRecord = Rgb.RED.shade(1)
         NoteAction = Rgb.RED
-        Note2 = RgbColor(34)
-        Note3 = RgbColor(35)
-        Note4 = RgbColor(126)
-        Note5 = RgbColor(101)
-        Note6 = RgbColor(38)
-        Note7 = RgbColor(39)
-        Note8 = RgbColor(40)
-        Note9 = RgbColor(41)
-        Note10 = RgbColor(42)
-        Note11 = RgbColor(43)
+        Note1 = RgbColor(16)
+        Note2 = RgbColor(26)
+        Note3 = RgbColor(28)
+        Note4 = RgbColor(46)
+        Note5 = RgbColor(48)
+        Note6 = RgbColor(66)
+        Note7 = RgbColor(68)
+        Note8 = RgbColor(76)
+        Note9 = RgbColor(78)
+        Note10 = RgbColor(86)
+        Note11 = RgbColor(88)
 
     class Recording:
         On = Basic.FULL
